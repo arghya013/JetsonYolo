@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from elements.yolo import OBJ_DETECTION
 
-Object_classes = ['Vehicle_License_Plate' ]
+Object_classes = ['Vehicle_License_Plate']
 
 Object_colors = list(np.random.rand(80,3)*255)
 Object_detector = OBJ_DETECTION('weights/yolov5s.pt', Object_classes)
